@@ -1,0 +1,16 @@
+PODS:
+  - TTipBoxView (1.0.0)
+
+DEPENDENCIES:
+  - TTipBoxView (from `../`)
+
+EXTERNAL SOURCES:
+  TTipBoxView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTipBoxView: ed1dbff75e7898d1b9397d4d28244f8b00bb42ff
+
+PODFILE CHECKSUM: fe1ad8c31b09056f65e9cf36836e3266023b4d23
+
+COCOAPODS: 1.11.3

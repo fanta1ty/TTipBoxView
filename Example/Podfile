@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.3'
+
+target 'TTipBoxView_Example' do
+  pod 'TTipBoxView', :path => '../'
+
+  target 'TTipBoxView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
