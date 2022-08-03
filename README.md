@@ -1,3 +1,5 @@
+![LOGO](https://github.com/fanta1ty/TTipBoxView/blob/master/ScreenShot/Logo.png)
+
 # TTipBoxView
 
 TTipBoxView is a simple and flexible UI component fully written in Swift. It is developed to help you create a hint/prompt view quickly, saving your time and avoiding having to write many lines of codes.
@@ -27,6 +29,23 @@ pod 'TTipBoxView'
 ```swift
 import TTipBoxView
 ```
+
+1) Initiate ``TTipBoxView``
+```swift
+let tipBoxView = TTipBoxView()
+```
+
+2) To show hint message, please input into ``tipLabel.text`` property
+```swift
+tipBoxView.tipLabel.text = "Tip: Please remember TTipBoxView when you want to add a tip box view.\n\nYou must be a iOS developer when using this library"
+```
+
+3) To show hint image, please add image into ``image`` property
+```swift
+tipBoxView.image = UIImage(named: "tip")
+```
+
+![alt text](https://github.com/fanta1ty/TTipBoxView/blob/master/ScreenShot/Screen%20Shot.png)
 
 ## Requirements
 - iOS 9.3 or later
