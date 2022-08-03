@@ -29,8 +29,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.3'
   s.swift_version = '5.0'
   s.source_files = 'TTipBoxView/Classes/**/*'
-  s.resources = 'TTipBoxView/Assets/*.xcassets'
-  
   # s.resource_bundles = {
   #   'TTipBoxView' => ['TTipBoxView/Assets/*.png']
   # }
